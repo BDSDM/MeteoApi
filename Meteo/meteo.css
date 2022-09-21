@@ -1,0 +1,73 @@
+.box-container{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: brown;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    color: blue;
+}
+#city{
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+}
+#temp{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+}
+#humidity{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    color: wheat;
+}
+#wind{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    color: white;
+}
+#container{
+    background-color: burlywood;
+    display: flex;
+    width: 350px;
+    height: 500px;
+    flex-direction: column;
+    border-radius: 30px;
+    
+
+}
+.form-group{
+    width: 300px;
+    height: 20px;
+    padding: 20px 20px 20px 20px;
+    background-color: chartreuse;
+    border-radius: 30px;
+}
+#bouton{
+    width: 300px;
+    height: 20px;
+    padding: 20px 20px 20px 20px;
+    background-color: darkolivegreen;
+    border-radius: 30px;
+}
+body{
+    display: flex;
+    align-content: center;
+    background-color: gray;
+}
+#titre{
+    width: 500px;
+    height: 80px;
+}
